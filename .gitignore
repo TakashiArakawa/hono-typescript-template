@@ -1,3 +1,5 @@
 node_modules/
 dist/
 .DS_Store
+coverage/
+my-tsx-app@1.0.0
