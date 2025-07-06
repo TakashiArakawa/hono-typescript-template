@@ -7,7 +7,7 @@
     "check:lint": "eslint .",
     "check:format": "prettier . --check",
     "fix:format": "prettier . --write",
-    "test": "vitest",
+    "test": "vitest --run",
     "start": "tsx src/index.ts",
     "check:all": "npm run check:types && npm run check:lint && npm run fix:format && npm test"
   },
